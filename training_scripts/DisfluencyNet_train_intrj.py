@@ -292,7 +292,7 @@ def train(epoch):
 eval_losses=[]
 eval_accu=[]
 
-torch.save(model, '/home/payal/SpeechDisfluency_ContextualRepresentation/testing_scripts/DisfluencyNet_snd_quart.pth')
+# torch.save(model, '/home/payal/SpeechDisfluency_ContextualRepresentation/testing_scripts/DisfluencyNet_snd_quart.pth')
 def test(epoch):
   model.eval()
 
